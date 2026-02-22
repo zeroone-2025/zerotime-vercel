@@ -1,0 +1,14 @@
+{
+  "name": "@zerotime/eslint-config",
+  "private": true,
+  "version": "0.0.0",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./next": "./next.mjs"
+  },
+  "peerDependencies": {
+    "eslint": "^9.0.0",
+    "eslint-config-next": "^16.0.0"
+  }
+}
